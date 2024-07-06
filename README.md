@@ -19,9 +19,24 @@ In this project the players, referees and football are detected and tracked in a
 - scikit-learn
 The Youtube video shows installation steps, if needed
 
-# Problems that I ran into
+# Problems that I ran into and solutions:
 Google Colab:
 - App needs to be added to Google Drive before you can use it
 - For !yolo task=detect mode=train model=yolov5l.pt data={dataset.location}/data.yaml epochs=100 imgsz=640
   - Runtime options needed to be changed to use the GPU, otherwise the yolo command was not found
   - yolov5l.pt needed to be used (still running) as x or xu failed with an error on the first epoch
+ 
+Ellipses weren't being drawn: 
+- Check annotation code misalignment, especially when looping over frames
+
+NumPy error allocating 20+ MiB for array in draw_camera_movement():overlay = frame.copy() 
+- run vscode as admin; other solutions are here: https://stackoverflow.com/questions/57507832/unable-to-allocate-array-with-shape-and-data-type
+
+Camera movement was always showing as zero
+- Added "max_distance = distance" line in get_camera_movement()
+
+# Future Work:
+- Interpolate positions for a player (potential approaches are modifying dataset to indicate individual players or, less favorably, remembering multiple track_ids for the same player)
+- Tighten ball and player tracking (potential approach is training using a model with more params - x or xu)
+
+
