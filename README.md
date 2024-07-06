@@ -16,9 +16,11 @@ In this project the players, referees and football in an input video are detecte
   
 The reference Youtube video (link below) shows installation steps, if needed
 
-## [Input Video:](https://drive.google.com/file/d/1g_3Udg9BxMUkl_4EPLTd345vn8zzPpI4/view?usp=sharing)
+## [Input Video](https://drive.google.com/file/d/1g_3Udg9BxMUkl_4EPLTd345vn8zzPpI4/view?usp=sharing)
 
-## Output Video:
+## [Output Video](https://drive.google.com/file/d/1pLKxrznguuYUiTf1AmH3J61x5pBZGDqn/view?usp=sharing)
+
+## [Training Model](https://drive.google.com/file/d/14R-DaMKO4PjsI04aDBjP6lnUzvDAixad/view?usp=sharing)
 
 ## Problems that I ran into and solutions:
 _Google Colab issues:_
