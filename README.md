@@ -3,7 +3,7 @@ In this project the players, referees and football in an input video are detecte
 
 ![image](https://github.com/ksarkara/footballAnalysis/assets/113844617/1f52c590-e0a7-4b4f-9f13-5047623ad377)
 
-# Requirements:
+## Requirements:
 - Python 3.x
 - Pickle
 - ultralytics
@@ -16,7 +16,11 @@ In this project the players, referees and football in an input video are detecte
   
 The reference Youtube video (link below) shows installation steps, if needed
 
-# Problems that I ran into and solutions:
+## [Input Video:](https://drive.google.com/file/d/1g_3Udg9BxMUkl_4EPLTd345vn8zzPpI4/view?usp=sharing)
+
+## Output Video:
+
+## Problems that I ran into and solutions:
 _Google Colab issues:_
 - App needs to be added to Google Drive before you can use it
 - For !yolo task=detect mode=train model=yolov5l.pt data={dataset.location}/data.yaml epochs=100 imgsz=640
@@ -35,11 +39,11 @@ _NumPy error allocating 20+ MiB for array in draw_camera_movement():overlay = fr
 _Camera movement was always showing as zero:_
 - Added "max_distance = distance" line in get_camera_movement()
 
-# Future Work:
+## Future Work:
 - Interpolate positions for a player (potential approaches are modifying dataset to indicate individual players or, less favorably, remembering multiple track_ids for the same player)
 - Tighten ball and player tracking (potential approach is training using a model with more params - x or xu)
 
-# Reference:
+## Reference:
 This project is heavily based on abdullahtarek's work, found on:
 - Github: https://github.com/abdullahtarek/football_analysis
 - and Youtube: https://www.youtube.com/watch?v=neBZ6huolkg
