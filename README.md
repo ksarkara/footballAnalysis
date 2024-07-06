@@ -14,7 +14,7 @@ In this project the players, referees and football in an input video are detecte
 - Pandas
 - scikit-learn
   
-The video in the [Reference](https://github.com/ksarkara/footballAnalysis/blob/main/README.md#reference) section has installation steps, if needed.
+The Youtube video in the [Reference](https://github.com/ksarkara/footballAnalysis/blob/main/README.md#reference) section has installation steps, if needed.
 
 ## [Input Video](https://drive.google.com/file/d/1g_3Udg9BxMUkl_4EPLTd345vn8zzPpI4/view?usp=sharing)
 
@@ -46,6 +46,4 @@ _Camera movement was always showing as zero:_
 - Tighten ball and player tracking (potential approach is training using a model with more params - x or xu)
 
 ## Reference:
-This project is heavily based on abdullahtarek's work, found on:
-- [Github](https://github.com/abdullahtarek/football_analysis)
-- and [Youtube](https://www.youtube.com/watch?v=neBZ6huolkg)
+This project is heavily based on abdullahtarek's work, found on [Github](https://github.com/abdullahtarek/football_analysis) and [Youtube](https://www.youtube.com/watch?v=neBZ6huolkg)
