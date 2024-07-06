@@ -7,11 +7,21 @@ In this project the players, referees and football are detected and tracked in a
 
 ![image](https://github.com/ksarkara/footballAnalysis/assets/113844617/1f52c590-e0a7-4b4f-9f13-5047623ad377)
 
-Folders not uploaded:
-- models
-- output_videos
-- stubs
-- training
-- Mainoo
-- Notes
-- yolov8x.pt
+# Requirements:
+- Python 3.x
+- Pickle
+- ultralytics
+- supervision
+- OpenCV
+- NumPy
+- Matplotlib
+- Pandas
+- scikit-learn
+The Youtube video shows installation steps, if needed
+
+# Problems that I ran into
+Google Colab:
+- App needs to be added to Google Drive before you can use it
+- For !yolo task=detect mode=train model=yolov5l.pt data={dataset.location}/data.yaml epochs=100 imgsz=640
+  - Runtime options needed to be changed to use the GPU, otherwise the yolo command was not found
+  - yolov5l.pt needed to be used (still running) as x or xu failed with an error on the first epoch
