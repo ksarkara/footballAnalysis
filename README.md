@@ -43,4 +43,4 @@ The Youtube video in the [Reference](https://github.com/ksarkara/footballAnalysi
 - Tighten ball and player tracking (potential approach is training using a model with more params - x or xu)
 
 ## Reference:
-This project is heavily based on abdullahtarek's work, found on [Github](https://github.com/abdullahtarek/football_analysis) and [Youtube](https://www.youtube.com/watch?v=neBZ6huolkg)
+This project is heavily based on @abdullahtarek's work, found on [Github](https://github.com/abdullahtarek/football_analysis) and [Youtube](https://www.youtube.com/watch?v=neBZ6huolkg)
