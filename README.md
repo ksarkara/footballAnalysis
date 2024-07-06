@@ -23,22 +23,19 @@ The Youtube video in the [Reference](https://github.com/ksarkara/footballAnalysi
 ## [Training Model](https://drive.google.com/file/d/14R-DaMKO4PjsI04aDBjP6lnUzvDAixad/view?usp=sharing)
 
 ## Problems that I ran into and solutions:
-_Google Colab issues:_
+### Google Colab issues:
 - App needs to be added to Google Drive before you can use it
 - For !yolo task=detect mode=train model=yolov5l.pt data={dataset.location}/data.yaml epochs=100 imgsz=640
   - Runtime options needed to be changed to use the GPU, otherwise the yolo command was not found
   - yolov5l.pt needed to be used (still running) as x or xu failed with an error on the first epoch
 
-
-_Ellipses weren't being drawn:_
+### Ellipses weren't being drawn:
 - Check annotation code misalignment, especially when looping over frames
 
-
-_NumPy error allocating 20+ MiB for array in draw_camera_movement():overlay = frame.copy():_
+### NumPy error allocating 20+ MiB for array in draw_camera_movement():overlay = frame.copy():
 - run vscode as admin; other solutions are [here](https://stackoverflow.com/questions/57507832/unable-to-allocate-array-with-shape-and-data-type)
 
-
-_Camera movement was always showing as zero:_
+### Camera movement was always showing as zero:
 - Added "max_distance = distance" line in get_camera_movement()
 
 ## Future Work:
