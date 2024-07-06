@@ -14,7 +14,7 @@ In this project the players, referees and football in an input video are detecte
 - Pandas
 - scikit-learn
   
-The reference Youtube video (link below) shows installation steps, if needed
+The video in the References section has installation steps, if needed.
 
 ## [Input Video](https://drive.google.com/file/d/1g_3Udg9BxMUkl_4EPLTd345vn8zzPpI4/view?usp=sharing)
 
