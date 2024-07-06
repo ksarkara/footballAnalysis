@@ -17,6 +17,7 @@ In this project the players, referees and football are detected and tracked in a
 - Matplotlib
 - Pandas
 - scikit-learn
+  
 The Youtube video shows installation steps, if needed
 
 # Problems that I ran into and solutions:
