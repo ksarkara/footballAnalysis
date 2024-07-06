@@ -35,7 +35,7 @@ _Ellipses weren't being drawn:_
 
 
 _NumPy error allocating 20+ MiB for array in draw_camera_movement():overlay = frame.copy():_
-- run vscode as admin; other solutions are here: https://stackoverflow.com/questions/57507832/unable-to-allocate-array-with-shape-and-data-type
+- run vscode as admin; other solutions are [here](https://stackoverflow.com/questions/57507832/unable-to-allocate-array-with-shape-and-data-type)
 
 
 _Camera movement was always showing as zero:_
@@ -47,5 +47,5 @@ _Camera movement was always showing as zero:_
 
 ## Reference:
 This project is heavily based on abdullahtarek's work, found on:
-- Github: https://github.com/abdullahtarek/football_analysis
-- and Youtube: https://www.youtube.com/watch?v=neBZ6huolkg
+- [Github](https://github.com/abdullahtarek/football_analysis)
+- and [Youtube](https://www.youtube.com/watch?v=neBZ6huolkg)
